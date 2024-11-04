@@ -20,4 +20,28 @@
 
 /* General Use */
 
+body{
+    background-image: url(/assets/bgtexture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    font-family: 'montauk-light';
+    color: #5F002B;
+}
 /* End General Use */
+
+/* footer */
+.footer-img{
+    height: 31.6px;
+    width: 100px;
+}
+
+.footer-format{
+    display: flex;
+   justify-content: flex-end;
+    
+}
+/* footer end */
