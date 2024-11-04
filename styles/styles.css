@@ -25,6 +25,17 @@
 
 /* General Use */
 
+body{
+    background-image: url(/assets/bgtexture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    font-family: 'montauk-light';
+    color: #5F002B;
+}
 /* End General Use */
 
 /* Navbar Start */
@@ -37,3 +48,16 @@
     color: #5F002B;
 }
 /* Navbar End */
+
+/* footer */
+.footer-img{
+    height: 31.6px;
+    width: 100px;
+}
+
+.footer-format{
+    display: flex;
+   justify-content: flex-end;
+    
+}
+/* footer end */
