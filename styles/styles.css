@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'montauk-regular';
+    src: url(/assets/fonts/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: 'montauk-light';
+    src: url(/assets/fonts/Montauk-Light.otf);
+}
+
+@font-face {
+    font-family: 'montauk-bold';
+    src: url(/assets/fonts/Montauk-Bold.otf);
+}
+
+@font-face {
+    font-family: 'montauk-italic';
+    src: url(/assets/fonts/Montauk-Italic.otf);
+}
+
+/* General Use */
+
+/* End General Use */
