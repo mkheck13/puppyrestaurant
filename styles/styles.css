@@ -53,11 +53,21 @@ p{
 .footer-img{
     height: 31.6px;
     width: 100px;
+    display: flex;
+
+}
+
+.footer-size{
+    padding: 0 8rem;
 }
 
 .footer-format{
-    display: flex;
-   justify-content: flex-end;
+
+   display: flex;
+   flex-flow: column wrap;
+   align-items: end;
+
+
     
 }
 /* footer end */
