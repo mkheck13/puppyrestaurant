@@ -32,9 +32,35 @@ body{
     background-attachment: fixed;
 }
 
+.container{
+    max-width: 1700px;
+}
+.container-fluid{
+    padding: 0px;
+}
+
 p{
     font-family: 'montauk-light';
     color: #5F002B;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'fugazOne';
+    color: #5F002B;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'fugazOne';
+    color: #5F002B;
+    font-size: 30px;
+}
+
+.title-text{
+    background-color: white;
+    text-align: center;
+    padding: .5rem 0;
 }
 /* End General Use */
 
@@ -71,3 +97,46 @@ p{
     
 }
 /* footer end */
+
+/* landing page */
+.home-header-format{
+    width: 100%;
+    margin: 0px;
+    height: 600px;
+    padding-bottom: 2rem;
+}
+
+.horizontal-card{
+    background-color: transparent;
+    border: 0px;
+    padding: 2rem 0;
+}
+
+.horizontal-card .card-body{
+    margin-left: 1rem;
+    padding: 2rem;
+}
+/* landing page end */
+
+/* catering page start */
+.catering-header-format{
+    height: 500px;
+    margin: 4rem 0;
+    
+}
+
+.catering-imgs{
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.catering-imgs .col-4{
+    padding: 0px;
+    width: 32%;
+}
+
+.catering-imgs img{
+    width: 100%;
+}
+/* catering page end */
