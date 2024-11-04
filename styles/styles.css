@@ -18,6 +18,22 @@
     src: url(/assets/fonts/Montauk-Italic.otf);
 }
 
+@font-face {
+    font-family: 'fugazOne';
+    src: url(/assets/fonts/FugazOne-Regular.ttf);
+}
+
 /* General Use */
 
 /* End General Use */
+
+/* Navbar Start */
+.navBarImg{
+    width: auto;
+}
+.navBarFont{
+    font-size: 20px;
+    font-family: 'fugazOne';
+    color: #5F002B;
+}
+/* Navbar End */
