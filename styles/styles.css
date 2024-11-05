@@ -36,6 +36,11 @@ p{
     font-family: 'montauk-light';
     color: #5F002B;
 }
+
+hr{
+    color: #5F002B;
+    opacity: 100%;
+}
 /* End General Use */
 
 /* Navbar Start */
@@ -48,6 +53,51 @@ p{
     color: #5F002B;
 }
 /* Navbar End */
+
+/* Menu Start */
+.title-text{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'fugazOne';
+    margin-bottom: 30px;
+}
+.menu-card{
+    height: auto;
+    width: 92%;
+    border: 0;
+    border-radius: 0;
+}
+.menu-card-header{
+    font-family: 'fugazOne';
+    color: #5F002B;
+    font-size: 30px;
+}
+
+.menu-image{
+    border-radius: o;
+}
+
+
+
+/* Menu End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 .footer-img{
@@ -65,9 +115,6 @@ p{
 
    display: flex;
    flex-flow: column wrap;
-   align-items: end;
-
-
-    
+   align-items: end;  
 }
 /* footer end */
