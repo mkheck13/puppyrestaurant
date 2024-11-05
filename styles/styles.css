@@ -101,12 +101,16 @@ h2{
 .horizontal-card{
     background-color: transparent;
     border: 0px;
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
 .horizontal-card .card-body{
     margin-left: 1rem;
     padding: 2rem;
+}
+
+.col-md-8 img{
+    padding-left: 1rem;
 }
 /* landing page end */
 
@@ -115,12 +119,12 @@ h2{
     width: 100%;
     height: 500px;
     margin: 0px;
-    padding-bottom: 2rem;
+    padding: 4rem 0 1rem 0;
     
 }
 
 .catering-imgs{
-    margin: 4rem 0;
+    margin: 2rem 0;
     display: flex;
     justify-content: space-around;
 }
@@ -128,6 +132,7 @@ h2{
 .catering-imgs .col-4{
     padding: 0px;
     width: 32%;
+    padding-bottom: 2rem;
 }
 
 .catering-imgs img{
