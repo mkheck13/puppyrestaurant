@@ -1,7 +1,7 @@
 # Puppy Restaurant
 
 **Description**: Create a fully functioning website using bootstrap based off a mockup that was provided.
-![Design preview for the Puppy Restaurant Website]()
+![Design preview for the Puppy Restaurant Website](/assets/Screenshot.png)
 
 **Names**: Michael Heckerman, Roy Cade (Trey), Aaron Robinson
 
@@ -9,7 +9,7 @@
 
 **Github**: https://github.com/mkheck13/puppyrestaurant
 
-**Vercel**: 
+**Vercel**: https://puppyrestaurant.vercel.app/
 
 **Prototype**: https://xd.adobe.com/spec/5c97cdf9-bda2-47f1-7c8f-27c7fd5963dd-2aa6/grid
 
