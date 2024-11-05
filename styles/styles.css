@@ -66,6 +66,12 @@ h2{
     font-size: 30px;
 }
 
+h3{
+    font-family: 'fugazOne';
+    color: #5F002B;
+    font-size: 30px;
+}
+
 .title-text{
     background-color: white;
     text-align: center;
