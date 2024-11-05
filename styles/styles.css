@@ -29,7 +29,6 @@ body{
     background-image: url(/assets/bgtexture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .container{
@@ -83,18 +82,11 @@ h2{
 
 }
 
-.footer-size{
-    padding: 0 8rem;
-}
-
 .footer-format{
 
    display: flex;
    flex-flow: column wrap;
    align-items: end;
-
-
-    
 }
 /* footer end */
 
@@ -120,8 +112,10 @@ h2{
 
 /* catering page start */
 .catering-header-format{
+    width: 100%;
     height: 500px;
-    margin: 4rem 0;
+    margin: 0px;
+    padding-bottom: 2rem;
     
 }
 
@@ -140,3 +134,70 @@ h2{
     width: 100%;
 }
 /* catering page end */
+
+/* home responsiveness */
+@media screen and (max-width: 767px){
+    .home-header-format{
+        height: 400px;
+    }
+    
+    .horizontal-card .card-body{
+        margin: 0px;
+        margin-top: 4rem;        
+    }
+
+    .col-md-4{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 577px) {
+    .home-header-format{
+        height: 250px;
+    }
+
+    .col-md-8 img{
+        height: 150px;
+    }
+
+    .card-body{
+        margin-top: 32px;
+    }
+    
+    footer p{
+        font-size: 15px;
+    }
+}
+
+/* catering responsiveness */
+@media screen and (max-width: 767px){
+    .catering-header-format{
+        height: 350px;
+        padding-bottom: 3rem;
+    }
+
+    .card-body{
+        padding: 2rem;
+    }
+
+    p{
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 577px){
+    .catering-header-format{
+        height: 250px;
+
+    }
+
+    .accordion-body img{
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+}
