@@ -898,6 +898,18 @@ footer{
     gap: 10px;
 }
 
+.photo-body .col-6{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-body .col{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 .photo-imgs {
     max-width: 315px;
     padding: 10px;
