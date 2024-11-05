@@ -42,6 +42,14 @@ p{
     font-family: 'montauk-light';
     color: #5F002B;
     font-size: 20px;
+    line-height: .9;
+}
+
+p2{
+    font-family: 'montauk-light';
+    color: #5F002B;
+    font-size: 20px;
+   
 }
 
 h1{
@@ -75,6 +83,11 @@ h2{
 /* Navbar End */
 
 /* footer */
+
+footer{
+    padding-bottom: 3rem;
+}
+
 .footer-img{
     height: 31.6px;
     width: 100px;
@@ -105,12 +118,13 @@ h2{
 }
 
 .horizontal-card .card-body{
-    margin-left: 1rem;
+    margin-left: .5rem;
     padding: 2rem;
+    padding-bottom: 6rem;
 }
 
-.col-md-8 img{
-    padding-left: 1rem;
+.col-md-7 img{
+    padding-left: .5rem;
 }
 /* landing page end */
 
@@ -127,6 +141,12 @@ h2{
     margin: 2rem 0;
     display: flex;
     justify-content: space-around;
+}
+
+.horizontal-card .card-body2{
+    margin-left: 1rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
 }
 
 .catering-imgs .col-4{
