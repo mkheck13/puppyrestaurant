@@ -49,6 +49,13 @@ p{
 }
 /* Navbar End */
 
+/* About Page Start */
+.bg-white {
+    background-color: white;
+}
+
+/* About Page End */
+
 /* footer */
 .footer-img{
     height: 31.6px;
