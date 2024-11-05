@@ -30,11 +30,56 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x:hidden;
+}
+
+.container{
+    max-width: 1700px;
+}
+.container-fluid{
+    padding: 0px;
 }
 
 p{
     font-family: 'montauk-light';
     color: #5F002B;
+    font-size: 20px;
+    line-height: .9;
+}
+
+p2{
+    font-family: 'montauk-light';
+    color: #5F002B;
+    font-size: 20px;
+   
+}
+
+h1{
+    font-family: 'fugazOne';
+    color: #5F002B;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'fugazOne';
+    color: #5F002B;
+    font-size: 30px;
+}
+
+.title-text{
+    background-color: white;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+hr{
+    color: #5F002B;
+    opacity: 100%;
+}
+
+hr{
+    color: #5F002B;
+    opacity: 100%;
 }
 /* End General Use */
 
@@ -49,9 +94,61 @@ p{
 }
 /* Navbar End */
 
+/* Menu Start */
+.title-text{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'fugazOne';
+    margin-bottom: 30px;
+}
+.menu-card{
+    height: auto;
+    border: 0;
+    border-radius: 0;
+}
+.menu-card h2, a{
+    color: #5F002B;
+    font-family: 'montauk-regular';
+}
+.menu-card-header{
+    font-family: 'fugazOne';
+    color: #5F002B;
+    font-size: 30px;
+}
+.menu-image{
+    border-radius: 0;
+}
+hr{
+    margin-bottom: 40px;
+}
+/* Menu End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Photo Page End */
 
 /* footer */
+
+footer{
+    padding-bottom: 3rem;
+}
+
 .footer-img{
     height: 31.6px;
     width: 100px;
@@ -59,20 +156,138 @@ p{
 
 }
 
-.footer-size{
-    padding: 0 8rem;
-}
-
 .footer-format{
 
    display: flex;
    flex-flow: column wrap;
    align-items: end;
-
-
-    
 }
 /* footer end */
+
+/* landing page */
+.home-header-format{
+    width: 100%;
+    margin: 0px;
+    height: 600px;
+    padding-bottom: 1.5rem;
+}
+
+.horizontal-card{
+    background-color: transparent;
+    border: 0px;
+    padding: 4rem 0;
+}
+
+.horizontal-card .card-body{
+    margin-left: .5rem;
+    padding: 2rem;
+    padding-bottom: 6rem;
+}
+
+.col-md-7 img{
+    padding-left: .5rem;
+}
+/* landing page end */
+
+/* catering page start */
+.catering-header-format{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    padding: 4rem 0 1rem 0;
+    
+}
+
+.catering-imgs{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.horizontal-card .card-body2{
+    margin-left: 1rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+.catering-imgs .col-4{
+    padding: 0px;
+    width: 32%;
+    padding-bottom: 2rem;
+}
+
+.catering-imgs img{
+    width: 100%;
+}
+/* catering page end */
+
+/* home responsiveness */
+@media screen and (max-width: 767px){
+    .home-header-format{
+        height: 400px;
+    }
+    
+    .horizontal-card .card-body{
+        margin: 0px;
+        margin-top: 4rem;        
+    }
+
+    .col-md-4{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 577px) {
+    .home-header-format{
+        height: 250px;
+    }
+
+    .col-md-8 img{
+        height: 150px;
+    }
+
+    .card-body{
+        margin-top: 32px;
+    }
+    
+    footer p{
+        font-size: 15px;
+    }
+}
+
+/* catering responsiveness */
+@media screen and (max-width: 767px){
+    .catering-header-format{
+        height: 350px;
+        padding-bottom: 3rem;
+    }
+
+    .card-body{
+        padding: 2rem;
+    }
+
+    p{
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 577px){
+    .catering-header-format{
+        height: 250px;
+
+    }
+
+    .accordion-body img{
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+}
+
 
 
 
