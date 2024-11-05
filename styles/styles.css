@@ -49,6 +49,435 @@ p{
 }
 /* Navbar End */
 
+/* Photo Page End */
+
+/* footer */
+.footer-img{
+    height: 31.6px;
+    width: 100px;
+    display: flex;
+
+}
+
+.footer-size{
+    padding: 0 8rem;
+}
+
+.footer-format{
+
+   display: flex;
+   flex-flow: column wrap;
+   align-items: end;
+
+
+    
+}
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* About Page Start */
 .about-body {
     display: grid;
@@ -75,7 +504,6 @@ p{
     margin-right: 30px;
     max-height: 100%;
 }
-
 
 .our-team {
     grid-column: 1 / 4;
@@ -219,29 +647,67 @@ p{
     }
     
 }
-
-
 /* About Page End */
 
-/* footer */
-.footer-img{
-    height: 31.6px;
-    width: 100px;
-    display: flex;
-
+/* Photo Page */
+.photo-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
+    gap: 10px;
 }
 
-.footer-size{
-    padding: 0 8rem;
+.photo-imgs {
+    max-width: 315px;
+    padding: 10px;
+    background-color: white;
 }
 
-.footer-format{
+.photo-nav {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    max-width: 100%;
+}
 
-   display: flex;
-   flex-flow: column wrap;
-   align-items: end;
+.photo-header {
+    grid-column: 1 / 5;
+    grid-row: 2;
+    max-width: 99%;
+}
 
+.row-1-photos {
+    grid-column: 1 / 5;
+    grid-row: 3;
+}
 
+.row-2-photos {
+    grid-column: 1 / 5;
+    grid-row: 4;
+}
+
+.row-3-photos {
+    grid-column: 1 / 5;
+    grid-row: 5;
+}
+
+.photo-footer {
+    grid-column: 1 / 5;
+    grid-row: 6;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .photo-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(9, auto);
+        gap: 10px;
+    }
+
+    .photo-imgs {
+        max-width: 250px;
+        padding: 10px;
+        background-color: white;
+    }
     
 }
-/* footer end */
