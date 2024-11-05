@@ -899,7 +899,7 @@ footer{
 }
 
 .photo-imgs {
-    max-width: 315px;
+    max-width: 400px;
     padding: 10px;
     background-color: white;
 }
@@ -913,7 +913,7 @@ footer{
 .photo-header {
     grid-column: 1 / 5;
     grid-row: 2;
-    max-width: 99%;
+    max-width: 87%;
 }
 
 .row-1-photos {
