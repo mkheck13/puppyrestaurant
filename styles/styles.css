@@ -187,7 +187,7 @@ footer{
 .horizontal-card .card-body{
     margin-left: .5rem;
     padding: 2rem;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
 }
 
 .col-md-7 img{
@@ -235,12 +235,21 @@ footer{
     
     .horizontal-card .card-body{
         margin: 0px;
-        margin-top: 4rem;        
+        margin-top: 4rem;
     }
 
-    .col-md-4{
+    .col-md-5{
         display: flex;
         justify-content: center;
+    }
+
+    .col-md-7 img{
+        padding: 0px;
+        height: 175px;
+    }
+
+    footer{
+        padding-bottom: 1rem;
     }
 
 }
@@ -250,8 +259,8 @@ footer{
         height: 250px;
     }
 
-    .col-md-8 img{
-        height: 150px;
+    .col-md-7 img{
+        height: 180px;
     }
 
     .card-body{
@@ -261,13 +270,18 @@ footer{
     footer p{
         font-size: 15px;
     }
+
+    footer{
+        padding-bottom: 1rem;
+    }
 }
 
 /* catering responsiveness */
 @media screen and (max-width: 767px){
     .catering-header-format{
         height: 350px;
-        padding-bottom: 3rem;
+        padding: 0px;
+        padding-bottom: 2rem;
     }
 
     .card-body{
@@ -277,11 +291,17 @@ footer{
     p{
         font-size: 1.75rem;
     }
+
+    footer{
+        padding-bottom: 1rem;
+    }
 }
 
 @media screen and (max-width: 577px){
     .catering-header-format{
         height: 250px;
+        padding: 0px;
+        padding-bottom: 2rem;
 
     }
 
@@ -291,6 +311,10 @@ footer{
 
     footer p{
         font-size: 15px;
+    }
+
+    footer{
+        padding-bottom: 1rem;
     }
 }
 
